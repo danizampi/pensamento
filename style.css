@@ -13,7 +13,7 @@ body, ul, li, p{
 
 .logo{
     width: 320px;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 
 a{
@@ -22,7 +22,7 @@ a{
 }
 
 .header{
-    background-color: #661313f8;
+    background-color: rgb(148, 30, 30);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,7 +46,7 @@ a{
 
 .flex{
     min-width: 100vh;
-    background-color: #525e94;
+    background-color: #353e66;
     display: flex;
     flex-direction: column;
     color: white
@@ -54,6 +54,7 @@ a{
 
 .imagem {
     height: auto;
+    width: 400px;
 }
 
 body{
@@ -63,7 +64,7 @@ body{
 .item{
     display: flex;
     align-items: flex-start;
-    border: 5px solid #353e66;
+    border: 5px solid black;
     margin: 10px;
 }
 
@@ -71,4 +72,24 @@ body{
     padding: 10px;
     text-align: justify;
     color: white
+}
+
+.footer {
+    background-color: rgb(148, 30, 30);
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeLogo {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
